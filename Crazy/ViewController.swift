@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.performSegue( withIdentifier: "loginView" , sender: self);
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,5 +23,7 @@ class ViewController: UIViewController {
     }
 
 
+        
+    
 }
 
